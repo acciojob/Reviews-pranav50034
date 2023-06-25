@@ -47,6 +47,7 @@ const App = () => {
                <p className="job">Job: {data[index].job}</p>
                <p className="info">Text: {data[index].text}</p>
             </div>
+            
             <div>
                <button className="prev-btn" onClick={handlePrevClick}>
                   Previous
